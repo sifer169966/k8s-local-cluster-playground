@@ -16,13 +16,13 @@ spec:
         - name: caddy
         image: caddy:alpine
         ports:
-        - containerPort: 80
+          - containerPort: 80
             name: http
         volumeMounts:
-        - name: caddy-config
+          - name: caddy-config
             mountPath: /etc/caddy/
             readOnly: true
         volumes:
-        - name: caddy-config
+          - name: caddy-config
         configMap:
             name: caddy-config
