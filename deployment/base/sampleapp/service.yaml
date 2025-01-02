@@ -3,8 +3,8 @@ kind: Service
 metadata:
     name: caddy-service
 spec:
-    selector:
+  selector:
     app: caddy
-    ports:
+  ports:
     - name: http
-    port: 80
+      port: 80
