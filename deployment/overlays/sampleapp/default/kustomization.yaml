@@ -8,6 +8,6 @@ namespace: default
 
 patches:
 - path: ingress.yaml
-    target:
-        kind: Ingress
-        name: caddy-ingress
+  target:
+    kind: Ingress
+    name: caddy-ingress
