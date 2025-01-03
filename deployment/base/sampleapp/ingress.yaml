@@ -5,9 +5,9 @@ metadata:
 spec:
     ingressClassName: nginx
     rules:
-    - host: servicename.example.local
+      - host: servicename.example.local
     http:
-        paths:
+      paths:
         - path: /
           pathType: Prefix
           backend:
