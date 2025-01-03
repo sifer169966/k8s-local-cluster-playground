@@ -3,6 +3,6 @@ kind: Kustomization
 
 resources:
 - ../../../base/busybox
-- ../../../.../appconfigs/busybox/default
+- ../../../../appconfigs/busybox/default
 
 namespace: default
