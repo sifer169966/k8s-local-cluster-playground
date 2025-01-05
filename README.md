@@ -89,3 +89,11 @@ kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/mast
 ```sh
 helm upgrade argocd --set configs.params."server\.insecure"=true --set server.ingress.enabled=true  --set server.ingress.ingressClassName="nginx" -n argocd argo/argo-cd
 ```
+
+### Add the target repository for argoCD
+
+```sh
+argocd repo add $REPO_URL --username $USER_NAME --password $PASSWORD
+```
+
+
