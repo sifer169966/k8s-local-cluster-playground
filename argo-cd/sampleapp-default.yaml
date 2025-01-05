@@ -7,7 +7,7 @@ spec:
     project: default
     source:
         repoURL: 'https://github.com/sifer169966/k8s-local-cluster-playground.git'
-        path: deployment/overlays/sampleapp/default
+        path: deployment/sampleapp/overlays/default
         targetRevision: master
     destination:
         server: 'https://kubernetes.default.svc'
